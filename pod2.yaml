@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: pod2-deployment
+  labels:
+    app: pod2
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: pod2
+  template:
+    metadata:
+      labels:
+        app: pod2
+    spec:
+      containers:
+      - name: pod2
+        image: pranavpawar3/pod2-image
+        ports:
+        - containerPort: 3000

@@ -1,0 +1,5 @@
+minikube start --driver docker
+kubectl apply -f pod2.yaml
+kubectl apply -f pod2-service.yaml
+kubectl apply -f config.yaml
+kubectl apply -f pod1.yaml
