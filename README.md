@@ -25,3 +25,7 @@ kubectl logs <POD1_NAME> -f
 # on another terminal window
 kubectl logs <POD2_NAME> -f
 ```
+
+### References
+1. [Docker hub image Pod1](https://hub.docker.com/r/pranavpawar3/pod1-image)
+2. [Docker hub image Pod1](https://hub.docker.com/r/pranavpawar3/pod2-image)
